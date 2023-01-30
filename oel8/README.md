@@ -9,7 +9,7 @@ The Packer template in this directory creates a OEL 8 AMD64 image for use with M
 * A machine running Ubuntu 18.04+ with the ability to run KVM virtual machines.
 * qemu-utils
 * [Packer](https://www.packer.io/intro/getting-started/install.html), v1.7.0 or newer
-* The [RHEL 8 DVD ISO](https://developers.redhat.com/products/rhel/download)
+* The [OEL 8 DVD ISO]
 
 ## Requirements (to deploy the image)
 
