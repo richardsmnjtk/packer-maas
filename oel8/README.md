@@ -25,7 +25,7 @@ The deployment image may be customized by modifying http/rhel8.ks. See the [Cent
 The Packer template pulls all packages from the DVD except for Canonical's
 cloud-init repository. To use a proxy during the installation add the
 --proxy=$HTTP_PROXY flag to every line starting with url or repo in
-http/rhel8.ks. Alternatively you may set the --mirrorlist values to a
+http/oel8.ks. Alternatively you may set the --mirrorlist values to a
 local mirror.
 
 ## Building an image
@@ -37,7 +37,7 @@ make ISO=/PATH/TO/oel8-x86_64-dvd.iso
 ```
 
 Alternatively you can manually run packer. Your current working directory must
-be in packer-maas/rhel8, where this file is located. Once in packer-maas/rhel8
+be in packer-maas/oel8, where this file is located. Once in packer-maas/rhel8
 you can generate an image with:
 
 ```shell
